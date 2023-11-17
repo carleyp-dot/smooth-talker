@@ -1,0 +1,104 @@
+<!-- TO Do Line Items:69: pop up for comment form -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Homepage</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <header>
+    <nav>
+        <ul>
+            <li><strong>Smooth Talker | </strong></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav></header>
+    <main>
+    <h1>Welcome to Smooth Talker: Unleash Your Conversational Curiosity</h1>
+    <p>Embark on a journey of connection and enlightenment with Smooth Talker – your go-to 
+        resource for mastering the art of engaging conversation. In a world bursting with 
+        diverse interests and professions, it's not always easy to strike up meaningful 
+        discussions. That's where Smooth Talker steps in, transforming every encounter into 
+        an opportunity for knowledge and connection. Whether you're at a networking event, 
+        a social gathering, or even your neighborhood coffee shop, Smooth Talker is here to 
+        empower you with the insights you need.</p>
+    <h2>What We Do: Elevating Conversations</h2>
+    <p>Smooth Talker is your gateway to unlocking the secrets of any subject. Ever found 
+        yourself in a conversation about a topic you know nothing about? Fear not! Our
+         mission is to equip you with concise subject matter summaries and a repertoire of 
+         thoughtful questions. It's time to turn small talk into big conversations and connect 
+         with people on a whole new level.</p>
+    <h2>Craft Your Conversations with Insightful Questions</h2>
+    <p>Smooth Talker doesn't just stop at summaries; we equip you with a curated arsenal of 
+        insightful questions. Imagine meeting a nurse and effortlessly delving into their world 
+        by asking about the highs and lows of their profession, the challenges they've overcome, 
+        or the most rewarding moments they've experienced. Spark meaningful conversations that 
+        leave a lasting impression.</p>
+    <h2>How It Works: Your Passport to Connection</h2>
+    <ol>
+        <li>Choose Your Topic: Navigate our user-friendly categories or use our search function 
+            to find the subject you want to explore.</li>
+        <li>Read the Brief: Dive into a concise yet thorough overview of the topic, gaining a 
+            quick understanding of the essentials.</li>
+        <li>Arm Yourself with Questions: Equip yourself with thought-provoking questions crafted
+             by experts in the field, ensuring your conversations are not only engaging but also 
+             enlightening.</li>
+        <li>Connect, Learn, Repeat: Step confidently into any situation armed with knowledge and 
+            the power to transform casual encounters into rich, rewarding dialogues.</li>
+    </ol>
+</main>
+<footer>
+    <h2>Join the Smooth Talker Community</h2>
+    <p>Smooth Talker isn't just a website; it's a community of curious minds eager to connect 
+        and learn from each other. Share your experiences, suggest new topics, and be part of 
+        a movement that values the beauty of insightful conversation.</p>
+    <p>Are you ready to transform every interaction into a journey of discovery? Dive into 
+        Smooth Talker – where every conversation becomes an exploration, and every connection 
+        is a doorway to knowledge.</p>
+    <p class="italicize">Smooth Talker: Unveil, Engage, Connect.</p>
+
+<h2>Feedback</h2>
+<form action="#" method="post">
+    <label for="rating">Share the secret alchemy: How did our content transform your conversational magic?</label>
+<select id="rating" name="rating" required>
+    <option value="5">5-Alchemy Master</option>
+    <option value="4">4-Elixir Expert</option>
+    <option value="3">3-Brewing Sorcerer</option>
+    <option value="2">2-Mystical Novice</option>
+    <option value="1">1-No Magic Yet</option>
+</select>
+
+
+    <label for="comments">Comments:</label>
+    <textarea id="comments" name="comments" rows="2" optional></textarea>
+
+    <input type="submit" value="Submit">
+</form>
+
+<!-- To-do - add a pop up windown for contact us form once javascript knowlege is aquired -->
+
+<a href="#" id="open-popup">Contact Us</a>
+
+<!-- Hidden Pop-up Content -->
+<div id="popup">
+    <h3>Contact Us</h3>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for=""email">E-Mail:</label>
+        <input type="text" id="email" name="email" required>
+        <label for=""comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="4" required></textarea>
+        <input type="submit" value="Submit">
+    </form>
+    <a href="#" id="close-popup">Close</a>
+</div>
+
+</footer>
+    </body>
+</html>
